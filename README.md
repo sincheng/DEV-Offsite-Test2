@@ -33,7 +33,9 @@ spark = SparkSession.builder.master('local[4]').getOrCreate()
 spark.conf.set("spark.sql.session.timeZone", "UTC")
 ```
 ## 3. Data Validation
- - Date
+- Null Values
+     - 119 records with null user id
+- Date
      - 99 records have found not on 2018-05-20
 - Hour
     - No invalid hour e.g null or >24 found in hour column
