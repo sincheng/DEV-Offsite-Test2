@@ -39,3 +39,19 @@ spark.conf.set("spark.sql.session.timeZone", "UTC")
      - 99 records have found not on 2018-05-20
 - Hour
     - No invalid hour e.g null or >24 found in hour column
+
+## 4. Unit Testing
+- Test Case
+    - Test Case and result are logged in test_log.xlsx
+- Test function
+    - Use below test function to test all cases
+```
+def findSession_Test():
+
+    # Test Case 1
+    input1 = ts_list
+    result = findSession(input1)
+    expected_result = [output]
+    assert result == expected_result
+    print("Test 1 successful")
+```    
