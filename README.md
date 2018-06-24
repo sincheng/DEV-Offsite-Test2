@@ -22,7 +22,7 @@ $ pip install pandas
 ```
 $ jupyter notebook
 ```
-- Use jupyter notebook to edit Answer Test2.ipynb
+- Use jupyter notebook to edit Answer Test2 - Spark.ipynb
 - Spark Session
     - Settings:
     - Local
